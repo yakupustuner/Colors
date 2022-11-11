@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#B8B29E"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#D50000"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#AA00FF"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#304FFE"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#0091EA"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#00BFA5"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#00C853"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#FFD600"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#FFAB00"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#FF6D00"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#DD2C00"
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/textView14"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#FF6D00"
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/textView15"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#B8B29E"
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/textView16"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#FFAB00"
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/textView17"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#FFD600"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#00C853"
+            android:padding="10dp"
+            android:visibility="invisible" />
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#00BFA5"
+            android:padding="10dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#FF5252"
+            android:padding="10dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="7"
+            android:layout_column="3"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#00B8D4"
+            android:padding="10dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#AA00FF"
+            android:padding="10dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="6"
+            android:layout_column="3"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/design"
+            android:backgroundTint="#C51162"
+            android:padding="10dp"
+            android:visibility="invisible" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="348dp"
+        android:text="Start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
